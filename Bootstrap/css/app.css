@@ -1,0 +1,70 @@
+.logo{
+	padding-top: 10px;
+	width: 20%;
+	height: 20%;
+}
+
+.jum{
+	height: 150px;
+	background-color: #0091EA;
+}
+
+.socialMedia{
+	padding-top:100px;
+	text-align: right;
+}
+.socialMedia img{
+	height: 4%;
+	width: 4%;
+	border-radius: 5px;
+}
+.espacio li{
+	margin-right: 10%;
+}
+
+.comentario{
+	padding-top: 1%;
+}
+article{
+	text-align: justify;
+}
+.mostrar{
+	border:1px solid black;
+}
+.izquierda{
+	text-align: center;
+	
+}
+.muestra{
+	height: 300px;
+	width: 93%;
+}
+
+form-group{
+	margin: 1%;
+}
+
+@media (min-width:0px) and (max-width:900px) {
+	.logo{
+	padding-top: 10px;
+	width: 20%;
+	height: 20%;
+	text-align: left;
+}
+.socialMedia{
+	padding-top:10px;
+	text-align: center;
+}
+.jum{
+	height: 100%;
+}
+
+.muestra{
+	height: 100%;
+	width: 100%;
+}
+.ocultar{
+	display: none;
+}
+
+}
